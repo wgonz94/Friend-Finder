@@ -200,10 +200,10 @@
         console.log('Error! Name and/or photo input fields are empty! Please input name and photo')
         alert('Error Occured. Missing fields: Check Name/Photo')
         }
-        var answerField = $(".chosen-select")
+        var answerField = $(".chosen-select").val()
         if(answerField === ""){
             console.log("Error! One or more of the questions are empty")
-            alert('You did not finish the survey')
+            alert("You did not finish the survey")
         }
 
         var friendAdd = {
@@ -222,6 +222,18 @@
                 $("#q10").val()
             ]
         };
+        var currentURL = window.location.origin;
+
+        $.post(currentURL + "/api/friends", friendAdd, function(data) {
+            friendName.text(data.name);
+            friendPhoto.attr("src", data.photo);
+            $("resultsModal").modal("toggle")
+        });
+
+        // var goHome = $("#exitModal").onclick()
+        // if(goHome){
+            
+        // }
     
     })
 
