@@ -192,6 +192,36 @@
     submit.on("click", function(event){
         event.preventDefault();
 
+        var friendName = $("#name");
+        var friendPhoto = $("#photo");
+
+        //Create alerts for errors
+        if(friendName.val() === "" || friendPhoto.val() === ""){
+        console.log('Error! Name and/or photo input fields are empty! Please input name and photo')
+        alert('Error Occured. Missing fields: Check Name/Photo')
+        }
+        var answerField = $(".chosen-select")
+        if(answerField === ""){
+            console.log("Error! One or more of the questions are empty")
+            alert('You did not finish the survey')
+        }
+
+        var friendAdd = {
+            name: friendName.val().trim(),
+            photo: friendPhoto.val().trim(),
+            scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
     
     })
 
