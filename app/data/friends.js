@@ -3,14 +3,14 @@ var friends = [
         name: "Jimmy Neutron",
         photo: "https://nick-intl.mtvnimages.com/uri/mgid:file:docroot:nick.com:/nick-assets/shows/images/jimmy-neutron/characters/character_large_332x363_jimmy.jpg?quality=0.75&height=0&width=480&matte=true&crop=false",
         scores: [
-            5,
+            4,
             1,
             5,
-            4,
             3,
-            4,
             2,
-            3,
+            5,
+            2,
+            2,
             2,
             5
         ]
@@ -94,7 +94,7 @@ var friends = [
             3,
             5
         ]
-    },
+    }
     
 
 ]
