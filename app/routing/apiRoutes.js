@@ -19,7 +19,6 @@ module.exports = function(app) {
         //Another aspect looked, data-attr
         let matchName = "";
         let matchPhoto = "";
-        let matchArr = [];
         // default score number for comparison
         let totalDifference = 10000;
 
