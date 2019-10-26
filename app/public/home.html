@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FriendFinder-Homepage</title>
+    <link rel="stylesheet" href="style.css">
 
     <!--Boostrap Links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,24 +13,32 @@
 
     <!--Font Awesome Link-->
     <script src="https://kit.fontawesome.com/16ef58d0af.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron float-none text-center">
-        <i class="fab fa-creative-commons-by fa-5x d-inline mr-3" aria-hidden="true"></i><h1 class="d-inline display-3 align-top"><strong><u>Friend Finder</u></strong></h1>
+        <div class="jumbotron float-none text-center" id="borderImg">
+        <i class="fas fa-ghost fa-5x d-inline mr-3" aria-hidden="true"></i><h1 class="d-inline display-3 align-top" id="ghoulFont"><strong><u>Find a Ghoulish Friend!</u></strong></h1>
+        <br><br>
+
         <hr>
         <br>
 
-        <h3>Answer a list of questions.</h3>
-        <h3>Find a friend with the best compatibility!</h3>
+        <i class="fas fa-spider fa-2x"></i><h3 class="">Answer a list of questions.</h3>
+        <i class="fas fa-spider fa-2x"></i><h3 class="">Get matched with a Creature for Halloween!</h3>
+        <br>
         <br>
         
-        <a href="/survey"><button type="button" class="btn btn-lg btn-info"><i class="fas fa-clipboard-check fa-2x"></i><h4>Go Survey</h4></button></a>
+        <a href="/survey"><button type="button" class="btn btn-lg btn-success"><i class="fas fa-hourglass-half fa-2x"></i><h4>Go Survey</h4></button></a>
         </div>
 
         <footer class="footer">
                 <div class="container">
-                  <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/wgonz94/Friend-Finder">GitHub Repo</a></p>
+                  <p><a class="text-warning" href="/api/friends">API Friends List</a> | <a class="text-warning" href="https://github.com/wgonz94/Friend-Finder">GitHub Repo</a></p>
                 </div>
               </footer>
           
