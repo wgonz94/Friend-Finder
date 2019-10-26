@@ -32,10 +32,10 @@ a compatibility-based "FriendFinder" application -- basically a dating app. This
 * If the user clicks the api list before clicking submit, the json for all the characters can be seen
 ![Api-list](images/deployed-api-before.JPG)
 
-# Deployed Link
+## Deployed Link
 https://evening-fortress-10252.herokuapp.com/
 
 
-##Developer
+## Developer
 
 *William Gonzales*
