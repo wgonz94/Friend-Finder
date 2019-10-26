@@ -1,15 +1,37 @@
+/*Setting Color and theme for Home page, Has Some color for Survey*/
 body{
     background: #2A5420 !important;
-}
-
-
-#ghoulFont, h3, h4{
-    font-family: 'Creepster', cursive;
-
 }
 div.jumbotron{
     background: #eb912d;
     border-radius: 15px;
 }
 
+#ghoulFont{
+    font-family: 'Creepster', cursive;
+
+}
+.home{
+    font-family: 'Creepster', cursive;
+    color:black;
+}
+
+
+/*More specifically for Survey*/
+body.survey{
+    background: #eb912d!important; 
+}
+h2, h3, h4{
+    font-family: 'Aclonica', sans-serif;
+    color: #1b3721;
+}
+input.form-control{
+    background:#27C424;
+}
+select.custom-select{
+    background: #27C424
+}
+#findFriend{
+    font-family: 'Aclonica', sans-serif;
+}
 
