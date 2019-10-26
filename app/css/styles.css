@@ -1,4 +1,4 @@
-/*Setting Color and theme for Home page, Has Some color for Survey*/
+
 body{
     background: #2A5420 !important;
 }
@@ -17,7 +17,7 @@ div.jumbotron{
 }
 
 
-/*More specifically for Survey*/
+
 body.survey{
     background: #eb912d!important; 
 }
